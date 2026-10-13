@@ -4,4 +4,4 @@ const { getAvailability } = require("../controllers/avabilability.controller");
 
 router.get("/", getAvailability);
 
-module.exports = { router };
+module.exports = router;
